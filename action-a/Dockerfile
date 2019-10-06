@@ -9,6 +9,7 @@ RUN echo hostname
 RUN apt-get install -y nginx
 
 ADD ["./index.html","/var/www/html"]
+RUN ls /var/www/html
 
 EXPOSE 80
 
