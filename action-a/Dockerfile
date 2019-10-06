@@ -4,7 +4,7 @@ MAINTAINER Ramazan TÜFEKÇİ <rader@radyobilge.com>
 
 RUN apt-get update
 
-RUN hostname
+RUN echo hostname
 
 RUN apt-get install -y nginx
 
